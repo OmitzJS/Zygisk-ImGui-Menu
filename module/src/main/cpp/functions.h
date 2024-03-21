@@ -26,11 +26,11 @@ float _FPSWeaponEquipment_get_FireRate(void *instance)
     {
         if (noStoneCD)
         {
-            LOGI("No Stone CD Active!")
+            LOGI("No Stone CD Active!");
             return 0.0f;
         }
     }
-    return FPSWeaponEquipment_get_FireRate(instance)
+    return FPSWeaponEquipment_get_FireRate(instance);
 }
 
 void Hooks() {
